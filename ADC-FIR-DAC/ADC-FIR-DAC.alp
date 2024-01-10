@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ADC-FIR-DAC" board="Alchitry Au" language="Verilog" version="3">
+  <files>
+    <src top="true">au_top.v</src>
+    <src>xadc_wrapper.v</src>
+    <src>dac_set_ad5626.v</src>
+    <constraint lib="true">au.xdc</constraint>
+    <constraint>test.acf</constraint>
+    <core name="fir_compiler_0">
+      <src>fir_compiler_0.xci</src>
+      <stub>fir_compiler_0_stub.v</stub>
+    </core>
+    <core name="xadc_wiz_0">
+      <src>xadc_wiz_0.xci</src>
+      <stub>xadc_wiz_0_stub.v</stub>
+    </core>
+  </files>
+</project>

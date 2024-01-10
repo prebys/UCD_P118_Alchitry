@@ -1,0 +1,58 @@
+// This file has all the pins associated with the Alchitry-Au and Alchitry-Io
+// boards used in UC Davis P116B.  Just copy the ones that are needed.
+//
+//  Alchitry-Au board
+//
+//   28-JAN-2020	E.Prebys		Original, based on the files au.acf and io.acf, 
+// 									distributed with Alchitry Lab
+//
+clock clk 100MHz;
+////////////////////////////////////////////////////////
+// Here are the devices on the Alchitry-Au board itself
+pin clk CLOCK;
+// Onboard LEDs
+pin led[0] LED0;
+pin led[1] LED1;
+pin led[2] LED2;
+pin led[3] LED3;
+pin led[4] LED4;
+pin led[5] LED5;
+pin led[6] LED6;
+pin led[7] LED7;
+
+//pin rst_n RESET;      // Reset button (active low)
+// flip the Tx/Rx lines 
+//pin usb_rx USB_TX;
+//pin usb_tx USB_RX;
+
+////////////////////////////////////////////////////////
+// Here are all the pins on the Alchitry-IO board.  NOTE:
+// At some point, the version provided by Alchitry began
+// declaring the LEDs and DIPS and 2d arrays.  These have been
+// kept as 1D arrays for backward compatibility
+//
+// 24 LEDs 
+pin io_led[0] B21;
+pin io_led[1] B20;
+pin io_led[2] B18;
+pin io_led[3] B17;
+pin io_led[4] B15;
+pin io_led[5] B14;
+pin io_led[6] B12;
+pin io_led[7] B11;
+pin io_led[8] B9;
+pin io_led[9] B8;
+pin io_led[10] B6;
+pin io_led[11] B5;
+pin io_led[12] B3;
+pin io_led[13] B2;
+pin io_led[14] A24;
+pin io_led[15] A23;
+pin io_led[16] A21;
+pin io_led[17] A20;
+pin io_led[18] A18;
+pin io_led[19] A17;
+pin io_led[20] A15;
+pin io_led[21] A14;
+pin io_led[22] A12;
+pin io_led[23] A11;

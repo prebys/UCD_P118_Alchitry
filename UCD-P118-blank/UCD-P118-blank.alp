@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="UCD-P118-blank" board="Alchitry Au" language="Verilog" version="3">
+  <files>
+    <src top="true">au_top.v</src>
+    <constraint lib="true">au.xdc</constraint>
+    <constraint>Alchitry-UCD.acf</constraint>
+  </files>
+</project>

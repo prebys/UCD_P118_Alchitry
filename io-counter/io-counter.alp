@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="io-counter" board="Alchitry Au" language="Verilog" version="3">
+  <files>
+    <src top="true">au_top.v</src>
+    <src>hex2bcd.v</src>
+    <src>fourhex.v</src>
+    <component>reset_conditioner.luc</component>
+    <src>hex7segment.v</src>
+    <constraint>io-counter.acf</constraint>
+    <constraint lib="true">au.xdc</constraint>
+  </files>
+</project>
