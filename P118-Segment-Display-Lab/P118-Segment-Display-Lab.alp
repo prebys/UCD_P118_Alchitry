@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="P118-Segment-Display-Lab" board="Alchitry Au" language="Verilog" version="3">
+  <files>
+    <src>slowcounter.v</src>
+    <src top="true">au_top.v</src>
+    <src>nibble2seg.v</src>
+    <src>binary2display.v</src>
+    <constraint lib="true">au.xdc</constraint>
+    <constraint>display-lab.acf</constraint>
+  </files>
+</project>
