@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="readout-example" board="Alchitry Au" language="Verilog" version="2">
+  <files>
+    <src top="true">au_top.v</src>
+    <src>hitcounter.v</src>
+    <src>buffer.v</src>
+    <src>readout.v</src>
+    <src>mod.v</src>
+    <src>address.v</src>
+    <constraint lib="true">au.xdc</constraint>
+    <constraint>readout-example.acf</constraint>
+  </files>
+</project>

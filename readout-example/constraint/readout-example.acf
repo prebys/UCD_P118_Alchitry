@@ -1,0 +1,57 @@
+clock clk 100MHz;
+////////////////////////////////////////////////////////
+// Here are the devices on the Alchitry-Au board itself
+pin clk CLOCK;
+
+// "Host" inputs (tied to DIP switches)
+pin HADDR[0] B30 pulldown;	
+pin HADDR[1] B31 pulldown;
+pin HADDR[2] B33 pulldown;
+pin HADDR[3] B34 pulldown;
+pin HADDR[4] B36 pulldown;
+pin HADDR[5] B37 pulldown;
+pin HADDR[6] B39 pulldown;
+pin HADDR[7] B40 pulldown;
+pin START B43 pulldown;
+pin SEL B45 pulldown;
+
+// host data (tied to LEDs) 
+pin HDATA[0] B21;
+pin HDATA[1] B20;
+pin HDATA[2] B18;
+pin HDATA[3] B17;
+pin HDATA[4] B15;
+pin HDATA[5] B14;
+pin HDATA[6] B12;
+pin HDATA[7] B11;
+pin HDATA[8] B9;
+pin HDATA[9] B8;
+pin HDATA[10] B6;
+pin HDATA[11] B5;
+pin HDATA[12] B3;
+pin HDATA[13] B2;
+pin HDATA[14] A24;
+pin HDATA[15] A23;
+pin HDATA[16] A21;
+pin HDATA[17] A20;
+pin HDATA[18] A18;
+pin HDATA[19] A17;
+pin HDATA[20] A15;
+pin HDATA[21] A14;
+pin HDATA[22] A12;
+pin HDATA[23] A11;
+
+
+// Just need some extra pins for HNHIT, so use some on bank C
+pin HNHIT[0] C12;
+pin HNHIT[1] C2;
+pin HNHIT[2] C3;
+pin HNHIT[3] C5;
+pin HNHIT[4] C6;
+pin HNHIT[5] C8;
+pin HNHIT[6] C9;
+pin HNHIT[7] C14;
+pin HNHIT[8] C11;
+
+pin BUSY C15;
+
