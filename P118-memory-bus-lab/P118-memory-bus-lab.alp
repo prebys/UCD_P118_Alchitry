@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="P118-memory-bus-lab" board="Alchitry Au" language="Verilog" version="3">
+  <files>
+    <src>slowcounter.v</src>
+    <src>nibble2seg.v</src>
+    <src top="true">au_top.v</src>
+    <src>memory.v</src>
+    <src>binary2display.v</src>
+    <constraint>membus.acf</constraint>
+    <constraint lib="true">au.xdc</constraint>
+  </files>
+</project>
