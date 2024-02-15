@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="ADC-DAC" board="Alchitry Au" language="Verilog" version="3">
   <files>
+    <src>dac_set_ad5626.v</src>
     <src>xadc_wrapper.v</src>
     <src top="true">au_top.v</src>
-    <src>dac_set_ad5626.v</src>
     <constraint lib="true">au.xdc</constraint>
     <constraint>test.acf</constraint>
     <core name="xadc_wiz_0">

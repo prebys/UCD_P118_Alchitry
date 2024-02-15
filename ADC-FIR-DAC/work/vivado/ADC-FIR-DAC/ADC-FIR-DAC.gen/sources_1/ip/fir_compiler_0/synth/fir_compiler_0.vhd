@@ -1,21 +1,21 @@
--- (c) Copyright 1995-2023 Xilinx, Inc. All rights reserved.
+-- (c) Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-- (c) Copyright 2022-2024 Advanced Micro Devices, Inc. All rights reserved.
 -- 
 -- This file contains confidential and proprietary information
--- of Xilinx, Inc. and is protected under U.S. and
--- international copyright and other intellectual property
--- laws.
+-- of AMD and is protected under U.S. and international copyright
+-- and other intellectual property laws.
 -- 
 -- DISCLAIMER
 -- This disclaimer is not a license and does not grant any
 -- rights to the materials distributed herewith. Except as
 -- otherwise provided in a valid license issued to you by
--- Xilinx, and to the maximum extent permitted by applicable
+-- AMD, and to the maximum extent permitted by applicable
 -- law: (1) THESE MATERIALS ARE MADE AVAILABLE "AS IS" AND
--- WITH ALL FAULTS, AND XILINX HEREBY DISCLAIMS ALL WARRANTIES
+-- WITH ALL FAULTS, AND AMD HEREBY DISCLAIMS ALL WARRANTIES
 -- AND CONDITIONS, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
 -- BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, NON-
 -- INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE; and
--- (2) Xilinx shall not be liable (whether in contract or tort,
+-- (2) AMD shall not be liable (whether in contract or tort,
 -- including negligence, or under any other theory of
 -- liability) for any loss or damage of any kind or nature
 -- related to, arising under or in connection with these
@@ -24,11 +24,11 @@
 -- (including loss of data, profits, goodwill, or any type of
 -- loss or damage suffered as a result of any action brought
 -- by a third party) even if such damage or loss was
--- reasonably foreseeable or Xilinx had been advised of the
+-- reasonably foreseeable or AMD had been advised of the
 -- possibility of the same.
 -- 
 -- CRITICAL APPLICATIONS
--- Xilinx products are not designed or intended to be fail-
+-- AMD products are not designed or intended to be fail-
 -- safe, or for use in any application requiring fail-safe
 -- performance, such as life-support or safety devices or
 -- systems, Class III medical devices, nuclear facilities,
@@ -37,7 +37,7 @@
 -- injury, or severe property or environmental damage
 -- (individually and collectively, "Critical
 -- Applications"). Customer assumes the sole risk and
--- liability of any use of Xilinx products in Critical
+-- liability of any use of AMD products in Critical
 -- Applications, subject only to applicable laws and
 -- regulations governing limitations on product liability.
 -- 
@@ -47,14 +47,14 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:ip:fir_compiler:7.2
--- IP Revision: 18
+-- IP Revision: 20
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
 
-LIBRARY fir_compiler_v7_2_18;
-USE fir_compiler_v7_2_18.fir_compiler_v7_2_18;
+LIBRARY fir_compiler_v7_2_20;
+USE fir_compiler_v7_2_20.fir_compiler_v7_2_20;
 
 ENTITY fir_compiler_0 IS
   PORT (
@@ -70,7 +70,7 @@ END fir_compiler_0;
 ARCHITECTURE fir_compiler_0_arch OF fir_compiler_0 IS
   ATTRIBUTE DowngradeIPIdentifiedWarnings : STRING;
   ATTRIBUTE DowngradeIPIdentifiedWarnings OF fir_compiler_0_arch: ARCHITECTURE IS "yes";
-  COMPONENT fir_compiler_v7_2_18 IS
+  COMPONENT fir_compiler_v7_2_20 IS
     GENERIC (
       C_XDEVICEFAMILY : STRING;
       C_ELABORATION_DIR : STRING;
@@ -173,16 +173,16 @@ ARCHITECTURE fir_compiler_0_arch OF fir_compiler_0 IS
       event_s_reload_tlast_missing : OUT STD_LOGIC;
       event_s_reload_tlast_unexpected : OUT STD_LOGIC
     );
-  END COMPONENT fir_compiler_v7_2_18;
+  END COMPONENT fir_compiler_v7_2_20;
   ATTRIBUTE X_CORE_INFO : STRING;
-  ATTRIBUTE X_CORE_INFO OF fir_compiler_0_arch: ARCHITECTURE IS "fir_compiler_v7_2_18,Vivado 2022.2";
+  ATTRIBUTE X_CORE_INFO OF fir_compiler_0_arch: ARCHITECTURE IS "fir_compiler_v7_2_20,Vivado 2023.2";
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
-  ATTRIBUTE CHECK_LICENSE_TYPE OF fir_compiler_0_arch : ARCHITECTURE IS "fir_compiler_0,fir_compiler_v7_2_18,{}";
+  ATTRIBUTE CHECK_LICENSE_TYPE OF fir_compiler_0_arch : ARCHITECTURE IS "fir_compiler_0,fir_compiler_v7_2_20,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF fir_compiler_0_arch: ARCHITECTURE IS "fir_compiler_0,fir_compiler_v7_2_18,{x_ipProduct=Vivado 2022.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=fir_compiler,x_ipVersion=7.2,x_ipCoreRevision=18,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_XDEVICEFAMILY=artix7,C_ELABORATION_DIR=./,C_COMPONENT_NAME=fir_compiler_0,C_COEF_FILE=fir_compiler_0.mif,C_COEF_FILE_LINES=90,C_FILTER_TYPE=0,C_INTERP_RATE=1,C_DECIM_RATE=1,C_ZERO_PACKING_FACTOR=1,C_SYMMETRY=1,C_NUM_FILTS=1,C_NUM_TAPS=179,C_NUM_CHANNELS=1,C_CHANNEL_PATTERN=fixed,C_ROUND_MODE=0,C_" & 
-"COEF_RELOAD=0,C_NUM_RELOAD_SLOTS=1,C_COL_MODE=1,C_COL_PIPE_LEN=4,C_COL_CONFIG=1,C_OPTIMIZATION=0,C_DATA_PATH_WIDTHS=12,C_DATA_IP_PATH_WIDTHS=12,C_DATA_PX_PATH_WIDTHS=12,C_DATA_WIDTH=12,C_COEF_PATH_WIDTHS=16,C_COEF_WIDTH=16,C_DATA_PATH_SRC=0,C_COEF_PATH_SRC=0,C_PX_PATH_SRC=0,C_DATA_PATH_SIGN=1,C_COEF_PATH_SIGN=0,C_ACCUM_PATH_WIDTHS=29,C_OUTPUT_WIDTH=29,C_OUTPUT_PATH_WIDTHS=29,C_ACCUM_OP_PATH_WIDTHS=29,C_EXT_MULT_CNFG=none,C_DATA_PATH_PSAMP_SRC=0,C_OP_PATH_PSAMP_SRC=0,C_NUM_MADDS=1,C_OPT_MADDS=non" & 
-"e,C_OVERSAMPLING_RATE=90,C_INPUT_RATE=2000,C_OUTPUT_RATE=2000,C_DATA_MEMTYPE=1,C_COEF_MEMTYPE=2,C_IPBUFF_MEMTYPE=0,C_OPBUFF_MEMTYPE=0,C_DATAPATH_MEMTYPE=0,C_MEM_ARRANGEMENT=1,C_DATA_MEM_PACKING=1,C_COEF_MEM_PACKING=0,C_FILTS_PACKED=0,C_LATENCY=98,C_HAS_ARESETn=0,C_HAS_ACLKEN=0,C_DATA_HAS_TLAST=0,C_S_DATA_HAS_FIFO=1,C_S_DATA_HAS_TUSER=0,C_S_DATA_TDATA_WIDTH=16,C_S_DATA_TUSER_WIDTH=1,C_M_DATA_HAS_TREADY=0,C_M_DATA_HAS_TUSER=0,C_M_DATA_TDATA_WIDTH=32,C_M_DATA_TUSER_WIDTH=1,C_HAS_CONFIG_CHANNEL=0,C_" & 
-"CONFIG_SYNC_MODE=0,C_CONFIG_PACKET_SIZE=0,C_CONFIG_TDATA_WIDTH=1,C_RELOAD_TDATA_WIDTH=1}";
+  ATTRIBUTE CORE_GENERATION_INFO OF fir_compiler_0_arch: ARCHITECTURE IS "fir_compiler_0,fir_compiler_v7_2_20,{x_ipProduct=Vivado 2023.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=fir_compiler,x_ipVersion=7.2,x_ipCoreRevision=20,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_XDEVICEFAMILY=artix7,C_ELABORATION_DIR=./,C_COMPONENT_NAME=fir_compiler_0,C_COEF_FILE=fir_compiler_0.mif,C_COEF_FILE_LINES=440,C_FILTER_TYPE=0,C_INTERP_RATE=1,C_DECIM_RATE=1,C_ZERO_PACKING_FACTOR=1,C_SYMMETRY=1,C_NUM_FILTS=1,C_NUM_TAPS=879,C_NUM_CHANNELS=1,C_CHANNEL_PATTERN=fixed,C_ROUND_MODE=0,C" & 
+"_COEF_RELOAD=0,C_NUM_RELOAD_SLOTS=1,C_COL_MODE=1,C_COL_PIPE_LEN=4,C_COL_CONFIG=1,C_OPTIMIZATION=0,C_DATA_PATH_WIDTHS=12,C_DATA_IP_PATH_WIDTHS=12,C_DATA_PX_PATH_WIDTHS=12,C_DATA_WIDTH=12,C_COEF_PATH_WIDTHS=16,C_COEF_WIDTH=16,C_DATA_PATH_SRC=0,C_COEF_PATH_SRC=0,C_PX_PATH_SRC=0,C_DATA_PATH_SIGN=1,C_COEF_PATH_SIGN=0,C_ACCUM_PATH_WIDTHS=30,C_OUTPUT_WIDTH=30,C_OUTPUT_PATH_WIDTHS=30,C_ACCUM_OP_PATH_WIDTHS=30,C_EXT_MULT_CNFG=none,C_DATA_PATH_PSAMP_SRC=0,C_OP_PATH_PSAMP_SRC=0,C_NUM_MADDS=1,C_OPT_MADDS=no" & 
+"ne,C_OVERSAMPLING_RATE=440,C_INPUT_RATE=10000,C_OUTPUT_RATE=10000,C_DATA_MEMTYPE=1,C_COEF_MEMTYPE=1,C_IPBUFF_MEMTYPE=0,C_OPBUFF_MEMTYPE=0,C_DATAPATH_MEMTYPE=0,C_MEM_ARRANGEMENT=1,C_DATA_MEM_PACKING=1,C_COEF_MEM_PACKING=0,C_FILTS_PACKED=0,C_LATENCY=448,C_HAS_ARESETn=0,C_HAS_ACLKEN=0,C_DATA_HAS_TLAST=0,C_S_DATA_HAS_FIFO=1,C_S_DATA_HAS_TUSER=0,C_S_DATA_TDATA_WIDTH=16,C_S_DATA_TUSER_WIDTH=1,C_M_DATA_HAS_TREADY=0,C_M_DATA_HAS_TUSER=0,C_M_DATA_TDATA_WIDTH=32,C_M_DATA_TUSER_WIDTH=1,C_HAS_CONFIG_CHANNEL" & 
+"=0,C_CONFIG_SYNC_MODE=0,C_CONFIG_PACKET_SIZE=0,C_CONFIG_TDATA_WIDTH=1,C_RELOAD_TDATA_WIDTH=1}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_PARAMETER : STRING;
   ATTRIBUTE X_INTERFACE_PARAMETER OF aclk: SIGNAL IS "XIL_INTERFACENAME aclk_intf, ASSOCIATED_BUSIF S_AXIS_CONFIG:M_AXIS_DATA:S_AXIS_DATA:S_AXIS_RELOAD, ASSOCIATED_RESET aresetn, ASSOCIATED_CLKEN aclken, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0";
@@ -195,20 +195,20 @@ ARCHITECTURE fir_compiler_0_arch OF fir_compiler_0 IS
   ATTRIBUTE X_INTERFACE_PARAMETER OF s_axis_data_tvalid: SIGNAL IS "XIL_INTERFACENAME S_AXIS_DATA, TDATA_NUM_BYTES 2, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 100000000, PHASE 0.0, LAYERED_METADATA undef, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF s_axis_data_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_DATA TVALID";
 BEGIN
-  U0 : fir_compiler_v7_2_18
+  U0 : fir_compiler_v7_2_20
     GENERIC MAP (
       C_XDEVICEFAMILY => "artix7",
       C_ELABORATION_DIR => "./",
       C_COMPONENT_NAME => "fir_compiler_0",
       C_COEF_FILE => "fir_compiler_0.mif",
-      C_COEF_FILE_LINES => 90,
+      C_COEF_FILE_LINES => 440,
       C_FILTER_TYPE => 0,
       C_INTERP_RATE => 1,
       C_DECIM_RATE => 1,
       C_ZERO_PACKING_FACTOR => 1,
       C_SYMMETRY => 1,
       C_NUM_FILTS => 1,
-      C_NUM_TAPS => 179,
+      C_NUM_TAPS => 879,
       C_NUM_CHANNELS => 1,
       C_CHANNEL_PATTERN => "fixed",
       C_ROUND_MODE => 0,
@@ -229,20 +229,20 @@ BEGIN
       C_PX_PATH_SRC => "0",
       C_DATA_PATH_SIGN => "1",
       C_COEF_PATH_SIGN => "0",
-      C_ACCUM_PATH_WIDTHS => "29",
-      C_OUTPUT_WIDTH => 29,
-      C_OUTPUT_PATH_WIDTHS => "29",
-      C_ACCUM_OP_PATH_WIDTHS => "29",
+      C_ACCUM_PATH_WIDTHS => "30",
+      C_OUTPUT_WIDTH => 30,
+      C_OUTPUT_PATH_WIDTHS => "30",
+      C_ACCUM_OP_PATH_WIDTHS => "30",
       C_EXT_MULT_CNFG => "none",
       C_DATA_PATH_PSAMP_SRC => "0",
       C_OP_PATH_PSAMP_SRC => "0",
       C_NUM_MADDS => 1,
       C_OPT_MADDS => "none",
-      C_OVERSAMPLING_RATE => 90,
-      C_INPUT_RATE => 2000,
-      C_OUTPUT_RATE => 2000,
+      C_OVERSAMPLING_RATE => 440,
+      C_INPUT_RATE => 10000,
+      C_OUTPUT_RATE => 10000,
       C_DATA_MEMTYPE => 1,
-      C_COEF_MEMTYPE => 2,
+      C_COEF_MEMTYPE => 1,
       C_IPBUFF_MEMTYPE => 0,
       C_OPBUFF_MEMTYPE => 0,
       C_DATAPATH_MEMTYPE => 0,
@@ -250,7 +250,7 @@ BEGIN
       C_DATA_MEM_PACKING => 1,
       C_COEF_MEM_PACKING => 0,
       C_FILTS_PACKED => 0,
-      C_LATENCY => 98,
+      C_LATENCY => 448,
       C_HAS_ARESETn => 0,
       C_HAS_ACLKEN => 0,
       C_DATA_HAS_TLAST => 0,

@@ -28,7 +28,7 @@ module au_top(
     wire [11:0] DAC_value;
  
   // Set up delay to reduce the clock to the sample rate
-    parameter SAMPLE_FACTOR=2000;      // Sample at 100 MHz/2000=50 kHz
+    parameter SAMPLE_FACTOR=10000;      // Sample at 100 MHz/10000=10 kHz
     integer sample_delay=0;            // counter to count this delay
     
     reg strobe=0;         // One strobe to rule them all: ADC, FIR, and DAC
@@ -56,8 +56,8 @@ module au_top(
                     .set(strobe),			    // start write
                     .busy(),		          // busy=1 during write
                     .cs(cs),			        // cs (to DAC)
-                    .sdin(sdin),          // Serial DATA (to DAC)
                     .sclk(sclk),          // Serial clock (to DAC)
+                    .sdin(sdin),          // Serial DATA (to DAC)
                     .ldac(ldac));		       // DAC load bit    
       
  

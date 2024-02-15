@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="fir_compiler_0_synth_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1677268700">
+<GenRun Id="fir_compiler_0_synth_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1708032008">
   <File Type="PA-TCL" Name="fir_compiler_0.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="fir_compiler_0_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="fir_compiler_0_reports.tcl"/>
@@ -9,7 +9,7 @@
   <File Type="RDS-DCP" Name="fir_compiler_0.dcp"/>
   <File Type="VDS-TIMINGSUMMARY" Name="fir_compiler_0_timing_summary_synth.rpt"/>
   <File Type="VDS-TIMING-PB" Name="fir_compiler_0_timing_summary_synth.pb"/>
-  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fir_compiler_0">
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fir_compiler_0" RelGenDir="$PGENDIR/fir_compiler_0">
     <File Path="$PPRDIR/../fir_compiler_0/fir_compiler_0.xci">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -22,7 +22,7 @@
       <Option Name="UseBlackboxStub" Val="1"/>
     </Config>
   </FileSet>
-  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fir_compiler_0">
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fir_compiler_0" RelGenDir="$PGENDIR/fir_compiler_0">
     <File Path="$PPRDIR/../fir_compiler_0/fir_compiler_0.xci">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -35,16 +35,14 @@
       <Option Name="UseBlackboxStub" Val="1"/>
     </Config>
   </FileSet>
-  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

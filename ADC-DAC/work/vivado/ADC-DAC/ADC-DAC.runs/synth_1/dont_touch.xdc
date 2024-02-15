@@ -3,7 +3,7 @@
 
 # XDC: C:/Program Files/Alchitry/Alchitry Labs/library/components/au.xdc
 
-# XDC: C:/Users/prebys/Alchitry/ADC-DAC/work/constraint/test.xdc
+# XDC: C:/Users/ericp/github/UCD_P118_Alchitry/ADC-DAC/work/constraint/test.xdc
 
 # IP: ip/xadc_wiz_0/xadc_wiz_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==xadc_wiz_0 || ORIG_REF_NAME==xadc_wiz_0} -quiet] -quiet

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="P118-DAC-set-lab" board="Alchitry Au" language="Verilog" version="3">
   <files>
-    <src>hex7segment.v</src>
-    <src>fourhex.v</src>
-    <src top="true">au_top.v</src>
     <src>slowcount.v</src>
+    <src top="true">au_top.v</src>
     <src>dac_set_ad5626.v</src>
     <src>hex2bcd.v</src>
+    <src>hex7segment.v</src>
+    <src>fourhex.v</src>
     <constraint>dac_test.acf</constraint>
     <constraint lib="true">au.xdc</constraint>
   </files>

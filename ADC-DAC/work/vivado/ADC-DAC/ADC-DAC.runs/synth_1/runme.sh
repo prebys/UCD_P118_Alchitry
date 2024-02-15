@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/prebys/Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.runs/synth_1'
+HD_PWD='C:/Users/ericp/github/UCD_P118_Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

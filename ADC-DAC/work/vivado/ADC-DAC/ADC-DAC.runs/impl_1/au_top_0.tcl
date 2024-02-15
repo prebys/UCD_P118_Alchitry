@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/prebys/Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.runs/impl_1/au_top_0.tcl"
+  variable script "C:/Users/ericp/github/UCD_P118_Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.runs/impl_1/au_top_0.tcl"
   variable category "vivado_impl"
 }
 
@@ -122,25 +122,25 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 1
-  set_param runs.launchOptions { -jobs 4  }
+  set_param chipscope.maxJobs 2
+  set_param runs.launchOptions { -jobs 8  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7a35tftg256-1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir C:/Users/prebys/Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.cache/wt [current_project]
-  set_property parent.project_path C:/Users/prebys/Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.xpr [current_project]
-  set_property ip_output_repo C:/Users/prebys/Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/ericp/github/UCD_P118_Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.cache/wt [current_project]
+  set_property parent.project_path C:/Users/ericp/github/UCD_P118_Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.xpr [current_project]
+  set_property ip_output_repo C:/Users/ericp/github/UCD_P118_Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet C:/Users/prebys/Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.runs/synth_1/au_top_0.dcp
-  read_ip -quiet C:/Users/prebys/Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+  add_files -quiet C:/Users/ericp/github/UCD_P118_Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.runs/synth_1/au_top_0.dcp
+  read_ip -quiet C:/Users/ericp/github/UCD_P118_Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
 OPTRACE "read constraints: implementation" START { }
   read_xdc {{C:/Program Files/Alchitry/Alchitry Labs/library/components/au.xdc}}
-  read_xdc C:/Users/prebys/Alchitry/ADC-DAC/work/constraint/test.xdc
+  read_xdc C:/Users/ericp/github/UCD_P118_Alchitry/ADC-DAC/work/constraint/test.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "read constraints: implementation_pre" START { }
 OPTRACE "read constraints: implementation_pre" END { }

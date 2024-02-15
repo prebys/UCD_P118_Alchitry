@@ -40,9 +40,9 @@ module dac_set_ad5626_2 #(parameter DELAY_FACTOR=10) (
   	input set,           // strobe to begin write cycle
   	output reg busy=0,   // asserted while writing
   	output reg cs=1,     // chip select, active LO
-  	output reg sdin=0,   // serial data
   	output reg sclk=0,   // serial clock
-  	output reg ldac=1    // load dac, active LO
+   	output reg sdin=0,   // serial data
+   	output reg ldac=1    // load dac, active LO
     );
     reg [3:0] bit_index=11;  // Pointer to the bit going out
     reg [11:0] dac_register=0;  // Register to hold the DAC value

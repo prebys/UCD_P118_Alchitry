@@ -1,4 +1,5 @@
 vhdl xil_defaultlib  \
 "../../../../fir_compiler_0/sim/fir_compiler_0.vhd" \
 
+# Do not sort compile order
 nosort

@@ -3,12 +3,12 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Tue Jan  9 09:24:04 2024
-# Process ID: 4192
-# Current directory: C:/Users/prebys/Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.runs/synth_1
+# Start of session at: Thu Feb 15 12:37:30 2024
+# Process ID: 11792
+# Current directory: C:/Users/ericp/github/UCD_P118_Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.runs/synth_1
 # Command line: vivado.exe -log au_top_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source au_top_0.tcl
-# Log file: C:/Users/prebys/Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.runs/synth_1/au_top_0.vds
-# Journal file: C:/Users/prebys/Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.runs/synth_1\vivado.jou
-# Running On: ERICPREBYS41E4, OS: Windows, CPU Frequency: 3200 MHz, CPU Physical cores: 4, Host memory: 6436 MB
+# Log file: C:/Users/ericp/github/UCD_P118_Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.runs/synth_1/au_top_0.vds
+# Journal file: C:/Users/ericp/github/UCD_P118_Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.runs/synth_1\vivado.jou
+# Running On: CL-Prebys-LT, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 34010 MB
 #-----------------------------------------------------------
 source au_top_0.tcl -notrace

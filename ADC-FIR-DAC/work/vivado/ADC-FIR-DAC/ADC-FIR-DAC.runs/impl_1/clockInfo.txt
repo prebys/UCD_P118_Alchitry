@@ -1,7 +1,7 @@
 -------------------------------------
 | Tool Version : Vivado v.2023.2
-| Date         : Tue Jan  9 09:38:32 2024
-| Host         : ERICPREBYS41E4
+| Date         : Thu Feb 15 13:24:05 2024
+| Host         : CL-Prebys-LT
 | Design       : design_1
 | Device       : xc7a35t-ftg256-1--
 -------------------------------------

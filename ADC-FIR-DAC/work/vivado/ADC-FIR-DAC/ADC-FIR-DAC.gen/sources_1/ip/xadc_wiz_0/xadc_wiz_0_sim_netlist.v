@@ -1,10 +1,11 @@
-// Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+// Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+// Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-// Date        : Wed Feb 24 15:16:46 2021
-// Host        : ERICPREBYSE3F0 running 64-bit major release  (build 9200)
+// Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+// Date        : Thu Feb 15 13:22:40 2024
+// Host        : CL-Prebys-LT running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               c:/Users/prebys/Documents/alchitry/XADC-sandbox/cores/xadc_wiz_0/xadc_wiz_0_sim_netlist.v
+//               c:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.gen/sources_1/ip/xadc_wiz_0/xadc_wiz_0_sim_netlist.v
 // Design      : xadc_wiz_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
