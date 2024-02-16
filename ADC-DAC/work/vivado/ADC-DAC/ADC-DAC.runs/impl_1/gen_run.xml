@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1708029503">
+<GenRun Id="impl_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1708105342">
   <File Type="ROUTE-PWR" Name="au_top_0_power_routed.rpt"/>
   <File Type="PA-TCL" Name="au_top_0.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="au_top_0_power_summary_routed.pb"/>
@@ -86,19 +86,10 @@
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../cores/xadc_wiz_0/xadc_wiz_0.xci"/>
-        <Attr Name="ImportTime" Val="1707247279"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PSRCDIR/sources_1/imports/verilog/dac_set_ad5626_2.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/dac_set_ad5626_2.v"/>
-        <Attr Name="ImportTime" Val="1708029430"/>
+        <Attr Name="ImportTime" Val="1708105234"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -107,7 +98,7 @@
     <File Path="$PSRCDIR/sources_1/imports/verilog/xadc_wrapper_1.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/xadc_wrapper_1.v"/>
-        <Attr Name="ImportTime" Val="1708029430"/>
+        <Attr Name="ImportTime" Val="1708105234"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -116,7 +107,7 @@
     <File Path="$PSRCDIR/sources_1/imports/verilog/au_top_0.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/au_top_0.v"/>
-        <Attr Name="ImportTime" Val="1708029430"/>
+        <Attr Name="ImportTime" Val="1708105234"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -168,4 +159,5 @@
       <Option Id="BinFile">1</Option>
     </Step>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="xadc_wiz_0"/>
 </GenRun>

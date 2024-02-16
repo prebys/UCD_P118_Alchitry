@@ -28,7 +28,7 @@ module au_top_0(
     wire [11:0] DAC_value;
  
   // Set up delay to reduce the clock to the sample rate
-    parameter SAMPLE_FACTOR=10000;      // Sample at 100 MHz/2000=50 kHz
+    parameter SAMPLE_FACTOR=10000;      // Sample at 100 MHz/10000=10 kHz
     integer sample_delay=0;            // counter to count this delay
     
     reg strobe=0;         // One strobe to rule them all: ADC, FIR, and DAC

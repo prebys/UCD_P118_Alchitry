@@ -2,7 +2,7 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-// Date        : Thu Feb 15 13:22:40 2024
+// Date        : Fri Feb 16 10:09:34 2024
 // Host        : CL-Prebys-LT running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
 //               c:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.gen/sources_1/ip/xadc_wiz_0/xadc_wiz_0_sim_netlist.v

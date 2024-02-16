@@ -8,7 +8,6 @@
     <constraint>test.acf</constraint>
     <core name="xadc_wiz_0">
       <src>xadc_wiz_0.xci</src>
-      <stub>xadc_wiz_0_stub.v</stub>
     </core>
   </files>
 </project>

@@ -14,7 +14,7 @@ ECHO is off.
     ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source au_top_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 476.660 ; gain = 184.363
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 477.367 ; gain = 182.973
 Command: synth_design -top au_top_0 -part xc7a35tftg256-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
@@ -22,9 +22,9 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t
 INFO: [Device 21-403] Loading part xc7a35tftg256-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 22256
+INFO: [Synth 8-7075] Helper process launched with PID 2744
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1322.695 ; gain = 440.770
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1321.160 ; gain = 439.758
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-11065] parameter 'IDLE' becomes localparam in 'dac_set_ad5626_2' with formal parameter declaration list [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.srcs/sources_1/imports/verilog/dac_set_ad5626_2.v:51]
 WARNING: [Synth 8-11065] parameter 'SCLK_LO' becomes localparam in 'dac_set_ad5626_2' with formal parameter declaration list [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.srcs/sources_1/imports/verilog/dac_set_ad5626_2.v:51]
@@ -33,29 +33,29 @@ WARNING: [Synth 8-11065] parameter 'CS_HI' becomes localparam in 'dac_set_ad5626
 WARNING: [Synth 8-11065] parameter 'LDAC_LO' becomes localparam in 'dac_set_ad5626_2' with formal parameter declaration list [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.srcs/sources_1/imports/verilog/dac_set_ad5626_2.v:51]
 INFO: [Synth 8-6157] synthesizing module 'au_top_0' [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.srcs/sources_1/imports/verilog/au_top_0.v:9]
 INFO: [Synth 8-6157] synthesizing module 'xadc_wrapper_1' [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.srcs/sources_1/imports/verilog/xadc_wrapper_1.v:12]
-INFO: [Synth 8-6157] synthesizing module 'xadc_wiz_0' [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.runs/synth_1/.Xil/Vivado-7524-CL-Prebys-LT/realtime/xadc_wiz_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'xadc_wiz_0' (0#1) [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.runs/synth_1/.Xil/Vivado-7524-CL-Prebys-LT/realtime/xadc_wiz_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'xadc_wiz_0' [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.runs/synth_1/.Xil/Vivado-9168-CL-Prebys-LT/realtime/xadc_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'xadc_wiz_0' (0#1) [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.runs/synth_1/.Xil/Vivado-9168-CL-Prebys-LT/realtime/xadc_wiz_0_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 'xadc_wrapper_1' (0#1) [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.srcs/sources_1/imports/verilog/xadc_wrapper_1.v:12]
 INFO: [Synth 8-6157] synthesizing module 'dac_set_ad5626_2' [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.srcs/sources_1/imports/verilog/dac_set_ad5626_2.v:37]
 INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.srcs/sources_1/imports/verilog/dac_set_ad5626_2.v:68]
 INFO: [Synth 8-6155] done synthesizing module 'dac_set_ad5626_2' (0#1) [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.srcs/sources_1/imports/verilog/dac_set_ad5626_2.v:37]
-INFO: [Synth 8-6157] synthesizing module 'fir_compiler_0' [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.runs/synth_1/.Xil/Vivado-7524-CL-Prebys-LT/realtime/fir_compiler_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'fir_compiler_0' (0#1) [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.runs/synth_1/.Xil/Vivado-7524-CL-Prebys-LT/realtime/fir_compiler_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fir_compiler_0' [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.runs/synth_1/.Xil/Vivado-9168-CL-Prebys-LT/realtime/fir_compiler_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fir_compiler_0' (0#1) [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.runs/synth_1/.Xil/Vivado-9168-CL-Prebys-LT/realtime/fir_compiler_0_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 'au_top_0' (0#1) [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.srcs/sources_1/imports/verilog/au_top_0.v:9]
 WARNING: [Synth 8-3917] design au_top_0 has port UCD_io[4] driven by constant 1
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1431.211 ; gain = 549.285
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1429.289 ; gain = 547.887
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1431.211 ; gain = 549.285
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1429.289 ; gain = 547.887
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1431.211 ; gain = 549.285
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1429.289 ; gain = 547.887
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1431.211 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1429.289 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -74,21 +74,21 @@ Parsing XDC File [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivad
 Finished Parsing XDC File [C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1521.535 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1452.844 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 The system cannot find the path specified.
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1521.535 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1452.844 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1521.535 ; gain = 639.609
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 1452.844 ; gain = 571.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tftg256-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1521.535 ; gain = 639.609
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 1452.844 ; gain = 571.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -96,7 +96,7 @@ Start Applying 'set_property' XDC Constraints
 Applied set_property KEEP_HIERARCHY = SOFT for your_instance_name. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for x1/xadc_wiz_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1521.535 ; gain = 639.609
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 1452.844 ; gain = 571.441
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'dac_set_ad5626_2'
 ---------------------------------------------------------------------------------------------------
@@ -110,7 +110,7 @@ INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'dac_s
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'dac_set_ad5626_2'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1521.535 ; gain = 639.609
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1452.844 ; gain = 571.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -151,25 +151,25 @@ Start Cross Boundary and Area Optimization
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 WARNING: [Synth 8-3917] design au_top_0 has port UCD_io[4] driven by constant 1
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 1521.535 ; gain = 639.609
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1452.844 ; gain = 571.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1521.535 ; gain = 639.609
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 1452.844 ; gain = 571.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 1521.535 ; gain = 639.609
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 1452.844 ; gain = 571.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 1521.535 ; gain = 639.609
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1452.844 ; gain = 571.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -187,37 +187,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1521.535 ; gain = 639.609
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1452.844 ; gain = 571.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1521.535 ; gain = 639.609
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1452.844 ; gain = 571.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1521.535 ; gain = 639.609
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1452.844 ; gain = 571.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1521.535 ; gain = 639.609
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1452.844 ; gain = 571.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1521.535 ; gain = 639.609
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1452.844 ; gain = 571.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1521.535 ; gain = 639.609
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1452.844 ; gain = 571.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -251,18 +251,18 @@ Report Cell Usage:
 |14    |OBUF         |     5|
 +------+-------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1521.535 ; gain = 639.609
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1452.844 ; gain = 571.441
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:24 . Memory (MB): peak = 1521.535 ; gain = 549.285
-Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1521.535 ; gain = 639.609
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:29 . Memory (MB): peak = 1452.844 ; gain = 547.887
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 1452.844 ; gain = 571.441
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1521.535 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1456.293 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 27 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1521.535 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1459.977 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -271,8 +271,8 @@ Synth Design complete | Checksum: 5ff2665e
 INFO: [Common 17-83] Releasing license: Synthesis
 28 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 1521.535 ; gain = 1032.621
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1521.535 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:36 . Memory (MB): peak = 1459.977 ; gain = 970.926
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1459.977 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/work/vivado/ADC-FIR-DAC/ADC-FIR-DAC.runs/synth_1/au_top_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file au_top_0_utilization_synth.rpt -pb au_top_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Feb 15 13:23:23 2024...
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 16 10:10:22 2024...

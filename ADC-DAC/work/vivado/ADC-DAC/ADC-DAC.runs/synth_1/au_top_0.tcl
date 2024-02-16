@@ -109,8 +109,6 @@ set_property used_in_implementation false [get_files {{C:/Program Files/Alchitry
 read_xdc C:/Users/ericp/github/UCD_P118_Alchitry/ADC-DAC/work/constraint/test.xdc
 set_property used_in_implementation false [get_files C:/Users/ericp/github/UCD_P118_Alchitry/ADC-DAC/work/constraint/test.xdc]
 
-read_xdc dont_touch.xdc
-set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 
