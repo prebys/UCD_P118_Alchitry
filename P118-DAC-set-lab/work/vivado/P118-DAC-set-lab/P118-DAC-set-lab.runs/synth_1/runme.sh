@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/prebys/github/UCD_P118_Alchitry/P118-DAC-set-lab/work/vivado/P118-DAC-set-lab/P118-DAC-set-lab.runs/synth_1'
+HD_PWD='C:/Users/ericp/github/UCD_P118_Alchitry/P118-DAC-set-lab/work/vivado/P118-DAC-set-lab/P118-DAC-set-lab.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

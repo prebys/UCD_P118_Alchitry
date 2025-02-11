@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1708106926">
+<GenRun Id="synth_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1739294843">
   <File Type="PA-TCL" Name="au_top_0.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="au_top_0_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="au_top_0_reports.tcl"/>
@@ -14,7 +14,7 @@
     <File Path="$PSRCDIR/sources_1/ip/fir_compiler_0/fir_compiler_0.xci">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../../cores/fir_compiler_0/fir_compiler_0.xci"/>
-        <Attr Name="ImportTime" Val="1708106769"/>
+        <Attr Name="ImportTime" Val="1739232146"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -23,7 +23,7 @@
     <File Path="$PSRCDIR/sources_1/imports/verilog/dac_set_ad5626_2.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/dac_set_ad5626_2.v"/>
-        <Attr Name="ImportTime" Val="1708106912"/>
+        <Attr Name="ImportTime" Val="1739294831"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -32,7 +32,7 @@
     <File Path="$PSRCDIR/sources_1/imports/verilog/xadc_wrapper_1.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/xadc_wrapper_1.v"/>
-        <Attr Name="ImportTime" Val="1708106912"/>
+        <Attr Name="ImportTime" Val="1739294831"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -41,7 +41,7 @@
     <File Path="$PSRCDIR/sources_1/imports/verilog/au_top_0.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/au_top_0.v"/>
-        <Attr Name="ImportTime" Val="1708106912"/>
+        <Attr Name="ImportTime" Val="1739294831"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>

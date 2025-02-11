@@ -56,8 +56,8 @@ module au_top(
                     .set(strobe),			    // start write
                     .busy(),		          // busy=1 during write
                     .cs(cs),			        // cs (to DAC)
-                    .sdin(sdin),          // Serial DATA (to DAC)
                     .sclk(sclk),          // Serial clock (to DAC)
+                    .sdin(sdin),          // Serial DATA (to DAC)
                     .ldac(ldac));		       // DAC load bit    
       
    wire [31:0] m_axis_data_tdata;              // output of FIR filter

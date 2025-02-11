@@ -7,7 +7,7 @@
 <Project Product="Vivado" Version="7" Minor="65" Path="C:/Users/ericp/github/UCD_P118_Alchitry/ADC-DAC/work/vivado/ADC-DAC/ADC-DAC.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="496dbd963b48485c953d155f4a1b720f"/>
+    <Option Name="Id" Val="0229e3e50733457f81ae4322c6c1e688"/>
     <Option Name="Part" Val="xc7a35tftg256-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -93,7 +93,7 @@
       <File Path="$PSRCDIR/sources_1/imports/verilog/dac_set_ad5626_2.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/dac_set_ad5626_2.v"/>
-          <Attr Name="ImportTime" Val="1708105234"/>
+          <Attr Name="ImportTime" Val="1739294545"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -102,7 +102,7 @@
       <File Path="$PSRCDIR/sources_1/imports/verilog/xadc_wrapper_1.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/xadc_wrapper_1.v"/>
-          <Attr Name="ImportTime" Val="1708105234"/>
+          <Attr Name="ImportTime" Val="1739294545"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -111,7 +111,7 @@
       <File Path="$PSRCDIR/sources_1/imports/verilog/au_top_0.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/au_top_0.v"/>
-          <Attr Name="ImportTime" Val="1708105234"/>
+          <Attr Name="ImportTime" Val="1739294545"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -165,7 +165,7 @@
       <File Path="$PSRCDIR/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../cores/xadc_wiz_0/xadc_wiz_0.xci"/>
-          <Attr Name="ImportTime" Val="1708105190"/>
+          <Attr Name="ImportTime" Val="1739232146"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
