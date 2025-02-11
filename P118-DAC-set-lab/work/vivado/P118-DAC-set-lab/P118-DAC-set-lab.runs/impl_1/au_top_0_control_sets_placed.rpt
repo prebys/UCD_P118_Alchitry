@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Tue Feb 11 09:34:20 2025
+| Date         : Tue Feb 11 12:44:04 2025
 | Host         : CL-Prebys-LT running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file au_top_0_control_sets_placed.rpt
 | Design       : au_top_0
@@ -75,11 +75,11 @@ Table of Contents
 +----------------+--------------------------------+-------------------+------------------+----------------+--------------+
 |  clk_IBUF_BUFG | da/cs3_out                     |                   |                1 |              1 |         1.00 |
 |  clk_IBUF_BUFG | da/sclk2_out                   |                   |                1 |              1 |         1.00 |
-|  clk_IBUF_BUFG | da/sdin1_out                   |                   |                1 |              1 |         1.00 |
 |  clk_IBUF_BUFG | da/ldac0_out                   |                   |                1 |              1 |         1.00 |
-|  clk_IBUF_BUFG | da/bit_index[3]_i_1_n_0        |                   |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG | da/sdin1_out                   |                   |                1 |              1 |         1.00 |
 |  clk_IBUF_BUFG | f1/nibble                      |                   |                4 |              4 |         1.00 |
 |  clk_IBUF_BUFG | f1/hold                        | f1/sel[3]_i_1_n_0 |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | da/bit_index[3]_i_1_n_0        |                   |                2 |              4 |         2.00 |
 |  clk_IBUF_BUFG | da/FSM_onehot_state[4]_i_1_n_0 |                   |                2 |              5 |         2.50 |
 |  clk_IBUF_BUFG | f1/hold                        | f1/hold0          |                2 |              8 |         4.00 |
 |  clk_IBUF_BUFG | c1/sel                         |                   |                7 |             12 |         1.71 |

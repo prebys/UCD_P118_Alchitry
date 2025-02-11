@@ -2,10 +2,10 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-// Date        : Fri Feb 16 10:07:30 2024
+// Date        : Thu Feb 15 13:21:12 2024
 // Host        : CL-Prebys-LT running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               c:/Users/ericp/github/UCD_P118_Alchitry/ADC-FIR-DAC/cores/fir_compiler_0/fir_compiler_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top fir_compiler_0 -prefix
+//               fir_compiler_0_ fir_compiler_0_stub.v
 // Design      : fir_compiler_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a35tftg256-1

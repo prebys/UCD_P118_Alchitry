@@ -1,5 +1,5 @@
 -- (c) Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
--- (c) Copyright 2022-2024 Advanced Micro Devices, Inc. All rights reserved.
+-- (c) Copyright 2022-2025 Advanced Micro Devices, Inc. All rights reserved.
 -- 
 -- This file contains confidential and proprietary information
 -- of AMD and is protected under U.S. and international copyright
@@ -192,14 +192,14 @@ BEGIN
       C_ELABORATION_DIR => "./",
       C_COMPONENT_NAME => "fir_compiler_0",
       C_COEF_FILE => "fir_compiler_0.mif",
-      C_COEF_FILE_LINES => 416,
+      C_COEF_FILE_LINES => 440,
       C_FILTER_TYPE => 0,
       C_INTERP_RATE => 1,
       C_DECIM_RATE => 1,
       C_ZERO_PACKING_FACTOR => 1,
       C_SYMMETRY => 1,
       C_NUM_FILTS => 1,
-      C_NUM_TAPS => 831,
+      C_NUM_TAPS => 879,
       C_NUM_CHANNELS => 1,
       C_CHANNEL_PATTERN => "fixed",
       C_ROUND_MODE => 0,
@@ -229,7 +229,7 @@ BEGIN
       C_OP_PATH_PSAMP_SRC => "0",
       C_NUM_MADDS => 1,
       C_OPT_MADDS => "none",
-      C_OVERSAMPLING_RATE => 416,
+      C_OVERSAMPLING_RATE => 440,
       C_INPUT_RATE => 10000,
       C_OUTPUT_RATE => 10000,
       C_DATA_MEMTYPE => 1,
@@ -241,7 +241,7 @@ BEGIN
       C_DATA_MEM_PACKING => 1,
       C_COEF_MEM_PACKING => 0,
       C_FILTS_PACKED => 0,
-      C_LATENCY => 424,
+      C_LATENCY => 448,
       C_HAS_ARESETn => 0,
       C_HAS_ACLKEN => 0,
       C_DATA_HAS_TLAST => 0,
